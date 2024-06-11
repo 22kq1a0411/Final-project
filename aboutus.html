@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.video-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+#background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+    /* Custom CSS styles */
+    body {
+      font-family:Verdana(sans-serif);
+      
+    }
+    .container {
+      margin-top: 50px;
+    }
+    h1 {
+      color:lightcoral ;
+    }
+    p {
+      color:white;
+      font-size: x-large;
+    }
+  </style>
+  meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Video</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="video-container">
+    <video autoplay muted loop id="background-video">
+      <source src="" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="content">
+      <!-- Your content here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+  meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Video</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="video-container">
+    <video autoplay muted loop id="background-video">
+      <source src="video2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="content">
+      <!-- Your content here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <video autoplay muted loop id="background-video">
+    <source src="https://youtu.be/i5T6Fnbq34c" type="video/mp4">
+  </video>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <h1 class="text-center mb-4">About Us</h1>
+        <p>We are passionate about food and believe in providing our customers with the best dining experience possible. Our team of chefs carefully selects the finest ingredients to create delicious and memorable dishes.</p>
+        <p>At our restaurant, we strive to offer a diverse menu that caters to all tastes and dietary preferences. Whether you're a meat lover, vegetarian, or vegan, you'll find something to enjoy on our menu.</p>
+        <p>Customer satisfaction is our top priority, and we go above and beyond to ensure that every guest leaves happy and satisfied. From the moment you walk in, you'll be greeted with warm hospitality and attentive service.</p>
+        <p>Thank you for choosing us for your dining needs. We look forward to serving you and creating wonderful culinary experiences together!</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
